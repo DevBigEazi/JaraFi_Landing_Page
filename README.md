@@ -26,9 +26,9 @@ To add a new content, e.g page, please note this is react app that strictly supp
 
 To learn more, take a look at the following resources:
 
-- [Vite Documentation](https://vitejs.dev/guide) - learn about Vite.
-- [Learn React.js](https://react.dev/learn) - Learn React.js.
-- [Learn TailwindCSS](https://tailwindcss.com/docs/installation/using-postcss) - Learn TailwindCss.
+- [Vite Documentation](https://vitejs.dev/guide)
+- [Learn React.js](https://react.dev/learn)
+- [Learn TailwindCSS](https://tailwindcss.com/docs/installation/using-postcss)
 
 ## Contributing
 

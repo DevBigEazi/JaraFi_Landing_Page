@@ -20,7 +20,7 @@ Currently, two official plugins are available:
 - To start your server, run `yarn dev` or `npm run dev`  and you'll have your development server running on **localhost:5173**.
 
 ## Editing Content
-To add a new content, e.g page, please note this is react app that strictly support tailwindCss for styling. Check the files and folder structure before you get started.
+To add a new content, please note that this is react app that strictly support tailwindCss for styling. Check the files and folder structure before you get started.
 
 ## Learn More
 

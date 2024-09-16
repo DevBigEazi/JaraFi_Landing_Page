@@ -24,7 +24,7 @@ To add a new content, e.g page, please note this is react app that strictly supp
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more, take a look at the following resources:
 
 - [Vite Documentation](https://vitejs.dev/guide) - learn about Vite.
 - [Learn React.js](https://react.dev/learn) - Learn React.js.

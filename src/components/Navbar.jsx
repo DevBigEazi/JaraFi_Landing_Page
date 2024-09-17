@@ -18,7 +18,9 @@ const Navbar = () => {
         </a>
 
         <div className="h-11 w-55 border-[1px] border-primary transition-all duration-[0.5s] hover:bg-whitesmoke rounded-lg flex items-center py-3 px-7 max-sm:hidden">
-          <a href="#footer" className="text-primary">
+          <a
+            href="#footer"
+            className="text-primary text-base font-montserrat font-normal">
             Join Our Community
           </a>
         </div>
@@ -51,8 +53,18 @@ const Navbar = () => {
                 />
               </div>
 
-              <div className="flex flex-col items-center ">
-                <div className="w-full border-b-[1px] border-b-primary justify-center flex items-center py-3 px-7 mb-64">
+              <div className="flex flex-col items-center">
+                <div
+                  className="
+                  w-full 
+                  border-b-[1px] 
+                  border-b-primary 
+                  justify-center flex 
+                  items-center 
+                  py-3 
+                  px-7 
+                  mb-64"
+                  onClick={() => setToggle(false)}>
                   <a href="#footer" className="text-primary hover:text-black">
                     Join Our Community
                   </a>

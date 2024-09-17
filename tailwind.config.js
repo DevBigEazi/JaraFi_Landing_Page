@@ -24,7 +24,7 @@ export default {
       primary: "#0F0140",
       darkslateBlue: "#1D143E",
       black: "#262526",
-      lightGray: "#F2EDE4",
+      linen: "#F2EDE4",
       yellow: "#EAF206",
       whitesmoke: "#F9F6F3",
       white: "#FFFFFF",

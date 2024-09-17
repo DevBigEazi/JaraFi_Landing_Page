@@ -18,6 +18,15 @@ export default {
             '8xl': ['96px', '106px']
         },
         extend: {},
+        colors: {
+            "primary": "#0F0140",
+            "darkslateblue": "#1D143E",
+            "black": "#262526",
+            "light-gray": "#F2EDE4",
+            "yellow": "#EAF206",
+            "whitesmoke": "#F9F6F3",
+            "white": "#FFFFFF"
+        },
     },
     plugins: [],
 }

@@ -13,7 +13,7 @@ function App() {
 
       {/* PLS TAKE NOTE  */}
       {/* These are instances of how to make use of the assets ... 
-      This div must be cleared before you push your code to the repo */}
+      This div must not be cleared. Pls leave it as it is */}
       <div>
         <img src={images.heroDesktop} alt="hero" />
         <img src={icons.fullLogoBlue} alt="logo" />

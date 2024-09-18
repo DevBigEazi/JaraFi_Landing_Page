@@ -19,8 +19,12 @@ const socialCommunities = [
 ];
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer id="footer" className="bg-white py-4 px-6 max-sm:px-3.5 max-container">
+    <footer
+      id="footer"
+      className="bg-white py-4 px-6 max-sm:px-3.5 max-container">
       <img
         src={icons.fullLogoBlue}
         alt="logo"
@@ -30,7 +34,9 @@ const Footer = () => {
       />
 
       <div className="flex justify-between items-center py-4">
-        <p className="text-base font-montserrat font-normal">Copyright 2024</p>
+        <p className="text-black text-base font-montserrat font-normal">
+          Copyright {currentYear}
+        </p>
 
         <div className="flex gap-x-5 max-[345px]:gap-x-2">
           {socialCommunities.map(({ name, icon, link }) => (

@@ -65,7 +65,7 @@ const Navbar = () => {
                   items-center 
                   py-3 
                   px-7 
-                  mb-64"
+                  "
                   onClick={() => setToggle(false)}>
                   <a
                     href="#footer"
@@ -73,6 +73,8 @@ const Navbar = () => {
                     Join Our Community
                   </a>
                 </div>
+
+                <div className="h-[70vh]"></div>
 
                 <p className="text-primary text-base font-montserrat font-normal">
                   Copyright {currentYear}

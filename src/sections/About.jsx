@@ -2,7 +2,7 @@ import { icons, images } from "../constants";
 
 const About = () => {
 	return (
-		<section className="bg-[#0F0140] max-container grid py-12 md:grid-cols-2 gap-4 text-[#F2EDE4]">
+		<section className="bg-primary max-container grid py-12 md:grid-cols-2 gap-4 text-linen">
 			<div className="grid max-md:order-last items-center justify-center max-sm:relative max-sm:w-[150%] max-sm:left-1/2 max-sm:transform max-sm:-translate-x-1/2">
 				<img
 					src={images.swapDesktop}

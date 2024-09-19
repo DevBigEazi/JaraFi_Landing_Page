@@ -4,7 +4,7 @@ import { About, Footer, Hero, Services } from "./sections";
 
 function App() {
   return (
-    <main className="relative">
+    <main className="relative overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

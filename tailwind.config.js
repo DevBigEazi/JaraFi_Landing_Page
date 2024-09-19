@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
+   extend: {
+      screens: {
+        'xs': {'max': '460px'},
+      }
+    },
     fontSize: {
       xs: ["12px", "16px"],
       sm: ["14px", "20px"],

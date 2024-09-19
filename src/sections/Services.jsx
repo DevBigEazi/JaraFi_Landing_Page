@@ -5,7 +5,7 @@ const Services = () => {
     <section className="bg-[#EAF206] lg:h-[55vh] h-auto">
       <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start lg:space-x-20 px-4 lg:px-20">
         {/* Image Section */}
-        <div className="lg:pt-20 lg:ml-20 max-md:order-last">
+        <div className="lg:pt-8 lg:ml-20 max-md:order-last">
           <img
             src={images.balanceDesktop}
             alt="Balance Desktop"

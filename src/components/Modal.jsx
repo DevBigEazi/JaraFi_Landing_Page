@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
     setTimeout(() => {
       setIsClosing(false);
       onClose();
-    }, 300); // Match this with your transition duration
+    }, 300);
   };
 
   const handleSubmit = (e) => {

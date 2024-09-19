@@ -43,7 +43,6 @@ const Hero = () => {
         const data = await response.json();
         const emails = data.map((item) => item.email).filter(Boolean);
         setExistingEmails(emails);
-        // console.log("Fetched emails:", emails);
       } catch (error) {
         console.error("Error fetching emails:", error);
       }
@@ -51,7 +50,6 @@ const Hero = () => {
     handleFetch();
   }, [sheetdbapi]);
 
-  // console.log(existingEmails);
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -87,11 +85,7 @@ const Hero = () => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-
-      // const data = await response.json();
-      // console.log(data);
       handleCloseModal();
-      // You might want to show a success message here
       setSuccess("You have been added to wait list successfully");
       toast.success("Thanks for joining our wait list we'll keep you updated");
     } catch (error) {

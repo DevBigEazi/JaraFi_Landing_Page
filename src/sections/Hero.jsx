@@ -105,11 +105,11 @@ const Hero = () => {
   return (
     <section className="min-h-screen bg-linen pt-28 max-sm:pt-16 flex pl-4 max-md:flex-col items-center justify-between max-md:gap-y-9">
       <div className="flex flex-col gap-x-4 px-3 w-full">
-        <div className="space-y-2">
-          <h1 className="max-sm:text-3xl max-2xl:text-4xl font-bold font-MerriweatherSans">
+        <div className="space-y-2 ">
+          <h1 className="max-sm:text-3xl text-primary max-2xl:text-4xl font-bold font-MerriweatherSans">
             Corem ipsum dolor sit amet, consectetur.
           </h1>
-          <p className="text-xl font-normal font-montserrat">
+          <p className="text-xl font-normal text-primary font-montserrat">
             Corem ipsum dolor sit amet, consectetur. Corem ipsum dolor sit amet,
             consectetur.
           </p>

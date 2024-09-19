@@ -15,6 +15,7 @@ const Hero = () => {
     window.document.body.classList.add("overflow-hidden");
     setIsModalOpen(true);
   };
+
   const handleCloseModal = () => {
     window.document.body.classList.remove("overflow-hidden");
 
@@ -23,6 +24,8 @@ const Hero = () => {
   };
 
   useEffect(() => {
+    // This useEffect hook fetches existing email addresses from a SheetDB API when the component mounts.
+    // Its purpose is to prevent duplicate email submissions to the waitlist.
     const handleFetch = async () => {
       try {
         const response = await fetch(
@@ -97,8 +100,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen bg-linen pt-28 max-sm:pt-16 flex pl-4 max-md:flex-col items-center justify-between max-md:gap-y-9">
-      <div className="flex flex-col gap-x-4 px-3 w-full">
+    <section className="min-h-screen bg-linen pt-28 max-sm:px-3.5 max-sm:pt-16 flex pl-4 max-md:flex-col items-center justify-between max-md:gap-y-9">
+      <div className="flex flex-col gap-x-4 w-full">
         <div className="space-y-2 ">
           <h1 className="max-sm:text-3xl text-primary max-2xl:text-4xl font-bold font-MerriweatherSans">
             Corem ipsum dolor sit amet, consectetur.

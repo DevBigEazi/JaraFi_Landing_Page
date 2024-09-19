@@ -36,7 +36,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
       }`}
     >
       <div
-        className={`fixed inset-0 bg-[#0f0140] z-50 flex items-center max-w-[978px] max-sm:mt-14 sm:h-[493px] m-auto justify-center p-4 transition-transform duration-400 ${
+        className={`fixed inset-0 bg-primary z-50 flex items-center max-w-[978px] max-sm:mt-14 sm:h-[493px] m-auto justify-center p-4 transition-transform duration-400 ${
           isClosing ? "translate-x-full" : "translate-x-0"
         }`}
       >
@@ -47,7 +47,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
         >
           &times;
         </button>
-        <div className="relative w-full max-w-md bg-[#0f0140] rounded-lg shadow-lg">
+        <div className="relative w-full max-w-md bg-primary rounded-lg shadow-lg">
           <div className="p-6">
             <h2 className="text-3xl sm:text-4xl text-white font-bold font-MerriweatherSans mb-6 text-center">
               Join our waitlist
@@ -68,7 +68,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
                   id="fullName"
                   name="fullName"
                   placeholder="John Doe"
-                  className="w-full p-3 bg-[#1D143E] border border-[#FFFFFF80] rounded-lg text-white placeholder-gray-400"
+                  className="w-full p-3 bg-darkslateBlue border border-[#FFFFFF80] rounded-lg text-white placeholder-gray-400"
                   required
                 />
               </div>
@@ -84,7 +84,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
                   id="email"
                   name="email"
                   placeholder="johndoe@gmail.com"
-                  className="w-full p-3 bg-[#1D143E] border border-[#FFFFFF80] rounded-lg text-white placeholder-gray-400"
+                  className="w-full p-3 bg-darkslateBlue border border-[#FFFFFF80] rounded-lg text-white placeholder-gray-400"
                   required
                 />
               </div>
@@ -106,7 +106,7 @@ const Modal = ({ isOpen, onClose, onSubmit, isSubmitting, submitError }) => {
               )}
               <button
                 type="submit"
-                className="w-full bg-[#F9F6F3] text-[#0F0140] py-3 rounded-lg font-normal hover:bg-gray-100 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-[#F9F6F3] text-primary py-3 rounded-lg font-normal hover:bg-gray-100 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={isSubmitting || !isAgreed}
               >
                 {isSubmitting ? "Sending..." : "Send"}

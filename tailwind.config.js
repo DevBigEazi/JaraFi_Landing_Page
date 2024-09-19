@@ -8,6 +8,11 @@ export default {
         'xs': {'max': '460px'},
       }
     },
+    extend: {
+      spacing: {
+        '1/25': '4%', // 1 divided by 25 is 4%
+      }
+    },
     fontSize: {
       xs: ["12px", "16px"],
       sm: ["14px", "20px"],
@@ -17,6 +22,7 @@ export default {
       "2xl": ["24px", "29.26px"],
       "3xl": ["28px", "50px"],
       "4xl": ["48px", "58px"],
+      "6xl": ["60px", "68px"],
       "8xl": ["96px", "106px"],
     },
     extend: {

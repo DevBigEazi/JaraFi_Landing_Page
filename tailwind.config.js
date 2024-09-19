@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
     fontSize: {
@@ -19,29 +19,15 @@ export default {
         MerriweatherSans: ["Merriweather Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
-      colors: {
-        primary: "#0F0140",
-        darkslateBlue: "#1D143E",
-        black: "#262526",
-        linen: "#F2EDE4",
-        yellow: "#EAF206",
-        whitesmoke: "#F9F6F3",
-        white: "#FFFFFF",
-      },
-      animation: {
-        "slide-in-right": "slide-in-right 0.4s ease-in-out ",
-      },
-      keyframes: {
-        "slide-in-right": {
-          "0%": {
-            visibility: "visible",
-            transform: "translate3d(100%, 0, 0)",
-          },
-          "100%": {
-            transform: "translate3d(0, 0, 0)",
-          },
-        },
-      },
+    },
+    colors: {
+      primary: "#0F0140",
+      darkslateBlue: "#1D143E",
+      black: "#262526",
+      linen: "#F2EDE4",
+      yellow: "#EAF206",
+      whitesmoke: "#F9F6F3",
+      white: "#FFFFFF",
     },
   },
   plugins: [],

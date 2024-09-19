@@ -25,7 +25,7 @@ const Hero = () => {
 
   useEffect(() => {
     // This useEffect hook fetches existing email addresses from a SheetDB API when the component mounts.
-    // Its purpose is to prevent duplicate email submissions to the waitlist.
+    // Its purpose is to prevent duplicate email submissions to the wait list.
     const handleFetch = async () => {
       try {
         const response = await fetch(

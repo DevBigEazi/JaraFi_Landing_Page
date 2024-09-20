@@ -20,8 +20,6 @@ const Services = () => {
             </h2>
             <p className="text-base mb-2 font-montserrat text-primary font-normal max-sm:text-xl">
               Corem ipsum dolor sit amet, consectetur.
-            </p>
-            <p className="text-base font-montserrat max-sm:text-xl text-primary font-normal">
               Corem ipsum dolor
             </p>
           </div>

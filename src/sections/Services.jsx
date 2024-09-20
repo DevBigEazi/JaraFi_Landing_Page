@@ -18,10 +18,10 @@ const Services = () => {
             <h2 className="max-sm:text-3xl text-4xl text-[#0F0140] mb-4 font-MerriweatherSans">
               Corem ipsum dolor sit amet, consectetur.
             </h2>
-            <p className="text-sm sm:text-xl md:text-sm xl:text-sm mb-2  font-montserrat text-primary">
+            <p className="text-base  mb-2  font-montserrat text-primary">
               Corem ipsum dolor sit amet, consectetur.
             </p>
-            <p className="text-sm sm:text-xl md:text-sm xl:text-sm font-montserrat text-primary">
+            <p className="text-base  font-montserrat text-primary">
               Corem ipsum dolor
             </p>
           </div>

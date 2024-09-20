@@ -3,16 +3,18 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
-   extend: {
+    extend: {
       screens: {
-        'xs': {'max': '460px'},
-        'xl': { 'min': '1440px' },
-      }
+        xs: { max: "460px" }, 
+        xl: { min: "1440px" }, 
+        "2xl": { min: "1536px" }, 
+        "xxl":{min: "1600px"},
+      },
     },
     extend: {
       spacing: {
-        '1/25': '4%', // 1 divided by 25 is 4%
-      }
+        "1/25": "4%", // 1 divided by 25 is 4%
+      },
     },
     fontSize: {
       xs: ["12px", "16px"],

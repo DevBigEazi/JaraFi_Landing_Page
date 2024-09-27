@@ -14,11 +14,10 @@ const About = () => {
         <div className="flex flex-col px-4 sm:px-8 md:px-12 mb-4 gap-4 items-center justify-center">
           <div className="space-y-3">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-MerriweatherSans">
-              Corem ipsum dolor sit amet, consectetur.
+              All Your Stablecoin Usage In one Place.
             </h2>
             <p className="text-lg lg:text-xl font-montserrat">
-              Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              SEND. SWAP. EXCHANGE. PAY.
             </p>
           </div>
         </div>

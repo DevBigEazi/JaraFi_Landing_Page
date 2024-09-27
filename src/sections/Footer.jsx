@@ -4,17 +4,17 @@ const socialCommunities = [
   {
     name: "telegram icon",
     icon: icons.telegram,
-    link: "/",
+    link: "https://t.me/Jarafixyz",
   },
   {
     name: "linked in icon",
     icon: icons.linkedin,
-    link: "/",
+    link: "https://www.linkedin.com/company/jarafi",
   },
   {
     name: "x/twitter icon",
     icon: icons.x,
-    link: "/",
+    link: "https://x.com/JaraFi_xyz",
   },
 ];
 
@@ -41,6 +41,8 @@ const Footer = () => {
             {socialCommunities.map(({ name, icon, link }) => (
               <a
                 href={link}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={name}
                 className="h-12 w-12 max-[345px]:h-8 max-[345px]:w-8 flex justify-center items-center rounded-full border-[1px] border-primary transition-all duration-[0.5s] hover:bg-linen">
                 <img

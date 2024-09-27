@@ -16,10 +16,10 @@ const Services = () => {
           {/* Text Section */}
           <div className="md:w-3/5 text-left md:pl-8 xl:pl-16 2xl:pl-24 pt-8 md:pt-24  ">
             <h2 className="max-sm:text-3xl max-sm:leading-8 text-4xl text-primary mb-4 font-MerriweatherSans font-bold ">
-              Corem ipsum dolor sit amet, consectetur.
+              Onchain P2P For All Your Fiat Needs.
             </h2>
             <p className="text-base mb-2 font-montserrat text-primary font-normal max-sm:text-xl">
-              Corem ipsum dolor sit amet, consectetur. Corem ipsum dolor
+              Exchange your crypto for fiat with verified merchant.
             </p>
           </div>
         </div>

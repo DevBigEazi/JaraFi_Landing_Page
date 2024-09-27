@@ -103,7 +103,7 @@ const Hero = () => {
     <section className="bg-linen ">
       <div className="max-container min-h-16 pt-28  max-sm:pt-16 flex max-md:flex-col items-start justify-between gap-x-10 max-md:gap-y-9">
         <div className="flex flex-col  w-full max-sm:px-3.5 pl-4">
-          <div className="space-y-10 flex flex-col">
+          <div className="max-md:space-y-4 space-y-10 flex flex-col">
             <h1 className="max-sm:text-3xl text-primary text-4xl font-bold font-MerriweatherSans">
               One App For All Your Crypto Needs.
             </h1>
@@ -116,7 +116,7 @@ const Hero = () => {
           ) : (
             <button
               onClick={handleOpenModal}
-              className="self-start mt-28 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
+              className="self-start mt-24 max-md:mt-10 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
               Join waitlist here
             </button>
           )}

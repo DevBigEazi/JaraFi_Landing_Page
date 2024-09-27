@@ -7,8 +7,8 @@ const Navbar = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <header className="border-b-[1px] border-b-[#00000080] py-7 px-6 w-full absolute z-10 max-sm:py-4 max-sm:px-3.5">
-      <nav className="bg-linen flex justify-between items-center max-container">
+    <header className="bg-linen border-b-[1px] border-b-[#00000080] py-7 px-6 w-full absolute z-10 max-sm:py-4 max-sm:px-3.5">
+      <nav className=" flex justify-between items-center max-container">
         <a href="/">
           <img
             className="max-sm:w-[100px]"

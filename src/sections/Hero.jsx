@@ -100,49 +100,51 @@ const Hero = () => {
   };
 
   return (
-    <section className="max-container min-h-16 bg-linen pt-28  max-sm:pt-16 flex max-md:flex-col items-center justify-between gap-x-10 max-md:gap-y-9">
-      <div className="flex flex-col  w-full max-sm:px-3.5 pl-4">
-        <div className="space-y-2 flex flex-col">
-          <h1 className="max-sm:text-3xl text-primary max-2xl:text-4xl font-bold font-MerriweatherSans">
-            Lorem ipsum dolor sit amet consectetur.
-          </h1>
-          <p className="text-xl font-normal text-primary font-montserrat">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
-            deleniti molestias id, perferendis cum atque tempora necessitatibus
-            dolore libero exercitationem, facilis praesentium? Obcaecati
-            consequatur explicabo.
-          </p>
+    <section className="bg-linen ">
+      <div className="max-container min-h-16 pt-28  max-sm:pt-16 flex max-md:flex-col items-center justify-between gap-x-10 max-md:gap-y-9">
+        <div className="flex flex-col  w-full max-sm:px-3.5 pl-4">
+          <div className="space-y-2 flex flex-col">
+            <h1 className="max-sm:text-3xl text-primary text-4xl font-bold font-MerriweatherSans">
+              Lorem ipsum dolor sit amet consectetur.
+            </h1>
+            <p className="text-xl font-normal text-primary font-montserrat">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+              deleniti molestias id, perferendis cum atque tempora
+              necessitatibus dolore libero exercitationem, facilis praesentium?
+              Obcaecati consequatur explicabo.
+            </p>
+          </div>
+          {success ? (
+            <p className="text-base mt-2 italic text-green-600">{success}</p>
+          ) : (
+            <button
+              onClick={handleOpenModal}
+              className="self-start mt-2 sm:mt-4 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
+              Join waitlist here
+            </button>
+          )}
         </div>
-        {success ? (
-          <p className="text-base mt-2 italic text-green-600">{success}</p>
-        ) : (
-          <button
-            onClick={handleOpenModal}
-            className="self-start mt-2 sm:mt-4 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
-            Join waitlist here
-          </button>
-        )}
-      </div>
 
-      <div className="w-full ">
-        <img
-          className="max-md:hidden w-full h-auto object-cover"
-          src={images.heroDesktop}
-          alt="hero"
-        />
-        <img
-          className="max-md:block hidden w-full h-auto object-cover"
-          src={images.heroMobile}
-          alt="hero"
+        <div className="w-full ">
+          <img
+            className="max-md:hidden w-full h-auto object-cover"
+            src={images.heroDesktop}
+            alt="hero"
+          />
+          <img
+            className="max-md:block hidden w-full h-auto object-cover"
+            src={images.heroMobile}
+            alt="hero"
+          />
+        </div>
+        <Modal
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+          onSubmit={handleSubmit}
+          isSubmitting={isSubmitting}
+          submitError={submitError}
         />
       </div>
-      <Modal
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-        onSubmit={handleSubmit}
-        isSubmitting={isSubmitting}
-        submitError={submitError}
-      />
     </section>
   );
 };

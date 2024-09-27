@@ -101,17 +101,14 @@ const Hero = () => {
 
   return (
     <section className="bg-linen ">
-      <div className="max-container min-h-16 pt-28  max-sm:pt-16 flex max-md:flex-col items-center justify-between gap-x-10 max-md:gap-y-9">
+      <div className="max-container min-h-16 pt-28  max-sm:pt-16 flex max-md:flex-col items-start justify-between gap-x-10 max-md:gap-y-9">
         <div className="flex flex-col  w-full max-sm:px-3.5 pl-4">
-          <div className="space-y-2 flex flex-col">
+          <div className="space-y-10 flex flex-col">
             <h1 className="max-sm:text-3xl text-primary text-4xl font-bold font-MerriweatherSans">
-              Lorem ipsum dolor sit amet consectetur.
+              One App For All Your Crypto Needs.
             </h1>
             <p className="text-xl font-normal text-primary font-montserrat">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
-              deleniti molestias id, perferendis cum atque tempora
-              necessitatibus dolore libero exercitationem, facilis praesentium?
-              Obcaecati consequatur explicabo.
+              Send crypto to anyone through their phone number.
             </p>
           </div>
           {success ? (
@@ -119,7 +116,7 @@ const Hero = () => {
           ) : (
             <button
               onClick={handleOpenModal}
-              className="self-start mt-2 sm:mt-4 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
+              className="self-start mt-28 h-11 max-sm:w-full text-center border border-primary transition-all duration-500 hover:bg-whitesmoke rounded-lg text-primary text-base max-sm:text-center font-montserrat font-normal items-center py-3 px-7 ">
               Join waitlist here
             </button>
           )}

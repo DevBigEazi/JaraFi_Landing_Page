@@ -2,8 +2,8 @@ import { images } from "../constants";
 
 const Services = () => {
   return (
-    <section className="bg-yellow h-auto overflow-hidden max-container">
-      <div className=" mx-auto px-4 2xl:px-0 max-w-[1600px]">
+    <section className="bg-yellow h-auto overflow-hidden">
+      <div className=" mx-auto px-4 2xl:px-0 max-w-[1600px] max-container">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Image Section */}
           <div className="md:w-2/5 mt-8 md:mr-8 max-md:order-last max-md:mt-10">
@@ -19,8 +19,7 @@ const Services = () => {
               Corem ipsum dolor sit amet, consectetur.
             </h2>
             <p className="text-base mb-2 font-montserrat text-primary font-normal max-sm:text-xl">
-              Corem ipsum dolor sit amet, consectetur.
-              Corem ipsum dolor
+              Corem ipsum dolor sit amet, consectetur. Corem ipsum dolor
             </p>
           </div>
         </div>

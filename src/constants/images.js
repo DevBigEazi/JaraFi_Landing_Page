@@ -1,11 +1,8 @@
-import balanceDesktop from '../assets/images/balance-desktop.png';
-import balanceMobile from '../assets/images/balance-mobile.png';
-import heroDesktop from '../assets/images/hero-desktop.png';
-import heroMobile from '../assets/images/hero-mobile.png';
-import swapDesktop from '../assets/images/swap-desktop.png';
-import swapMobile from '../assets/images/swap-mobile.png';
-import swap from '../assets/images/swap.png';
+import balanceDesktop from '../assets/images/balance-desktop.svg';
+import balanceMobile from '../assets/images/balance-mobile.svg';
+import heroDesktop from '../assets/images/hero-desktop.svg';
+import heroMobile from '../assets/images/hero-mobile.svg';
+import swapDesktop from '../assets/images/swap-desktop.svg';
+import swapMobile from '../assets/images/swap-mobile.svg';
 
-
-
-export default { balanceDesktop, balanceMobile, heroDesktop, heroMobile, swapDesktop, swapMobile, swap };
+export default { balanceDesktop, balanceMobile, heroDesktop, heroMobile, swapDesktop, swapMobile, };

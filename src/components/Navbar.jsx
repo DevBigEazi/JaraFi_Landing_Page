@@ -10,9 +10,19 @@ const Navbar = () => {
     <header className="bg-linen border-b-[1px] border-b-[#00000080] py-7 px-6 w-full absolute z-10 max-sm:py-4 max-sm:px-3.5">
       <nav className=" flex justify-between items-center max-container">
         <a href="/">
+          {/* Desktop */}
           <img
-            className="max-sm:w-[100px]"
+            className="max-sm:w-[100px] max-[390px]:hidden"
             src={icons.fullLogoBlue}
+            alt="logo"
+            width={120}
+            height={20}
+          />
+
+          {/* small phones */}
+          <img
+            className="hidden max-[390px]:block"
+            src={icons.logoBlue}
             alt="logo"
             width={120}
             height={20}
@@ -46,6 +56,7 @@ const Navbar = () => {
                   width={100}
                   height={20}
                 />
+
                 <img
                   src={icons.crossSmall}
                   alt="close icon"
